@@ -11,30 +11,32 @@ All work will be done in the `app.js` file. There is no need to edit any other f
 In this challenge, you will be creating cards for each menu item displayed in the UI. Menu cards will have the following HTML format:
 
 ```
-<div class="card">
-    <div class="card-header">
-        <h2>Chicken Dinner</h2>
-    </div>
-    <div class="card-body">
-        <div class="card-body-left">
-            <img
-                src="https://images.unsplash.com/photo-1587593810167-a84920ea0781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                alt="chicken"
-            />
+<div class="menu-item">
+    <div class="card">
+        <div class="card-header">
+            <h2>Chicken Dinner</h2>
         </div>
-        <div class="card-body-right">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quae. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quisquam, quae.
-            </p>
-        </div>
-        </div>
-        <div class="card-footer">
-            <p class="price">$10</p>
-            <button value=${price}>Add to Cart</button>
+        <div class="card-body">
+            <div class="card-body-left">
+                <img
+                    src="https://images.unsplash.com/photo-1587593810167-a84920ea0781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                    alt="chicken"
+                />
+            </div>
+            <div class="card-body-right">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quae. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Quisquam, quae.
+                </p>
+            </div>
+            </div>
+            <div class="card-footer">
+                <p class="price">$10</p>
+                <button value=${price}>Add to Cart</button>
+            </div>
         </div>
     </div>
 </div>
