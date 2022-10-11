@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: #fafafa;
 }
 header {
@@ -46,7 +46,13 @@ section {
   background: #fff;
   padding: 20px;
   margin: 20px 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 9px 11px 44px -14px #000000;
 }
 
 .card .card-header {
@@ -64,7 +70,7 @@ section {
   display: flex;
   align-items: center;
   padding: 20px 0;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 20px;
 }
 .card .card-body .card-body-left {
@@ -78,9 +84,10 @@ section {
 }
 .card .card-body .card-body-right {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin: 0 20px;
   flex-direction: column;
+  width: 30%;
 }
 .card .card-footer {
   display: flex;
